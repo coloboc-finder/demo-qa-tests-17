@@ -18,13 +18,13 @@ public class JUnitTest {
 
     @Test
     void firstTest() {
-        System.out.println("            Это тест №1!");
+        System.out.println("                    Это тест firstTest!");
         Assertions.assertTrue(3 > 2);
     }
 
     @Test
     void secondTest() {
-        System.out.println("            Это тест №2!");
+        System.out.println("                    Это тест secondTest!");
         Assertions.assertTrue(3 > 2);
     }
 }
