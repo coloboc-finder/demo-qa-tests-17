@@ -17,7 +17,7 @@ public class TextBoxTests {
         $("input[ng-model='lName']").setValue("Ivanov");
         $("input[ng-model='postCd']").setValue("123456");
         $("button[type='submit']").click();
-//
+
 //        open("https://demoqa.com/text-box");
 //        // Ожидаем, что заголовок страницы будет видим
 //        $(".main-header").shouldHave(text("Text Box"));
